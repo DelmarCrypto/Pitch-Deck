@@ -4,507 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta name="description" content="Investissez dans l’immobilier tokenisé avec Legatio Finance. Collectionnez des NFTs sur OpenSea et Magic Eden, et recevez des $LEG via airdrop en 2026.">
-    <meta name="keywords" content="immobilier tokenisé, RWA, NFTs immobiliers, staking LEG, blockchain, Legatio Finance, finance décentralisée, OpenSea, Magic Eden, Arbitrum">
+    <meta name="description" content="Pitch Deck de Legatio Finance - Découvrez notre vision pour un écosystème blockchain avec NFTs uniques sur OpenSea/Magic Eden et $LEG via airdrop en 2026 sur Arbitrum.">
+    <meta name="keywords" content="NFTs, $LEG, utility token, blockchain, Legatio Finance, staking, gouvernance, Arbitrum, OpenSea, Magic Eden, airdrop">
     <meta name="author" content="Legatio Finance Team">
     <meta name="robots" content="index, follow">
-    <!-- Open Graph -->
-    <meta property="og:title" content="Legatio Finance - Immobilier Tokenisé via NFTs">
-    <meta property="og:description" content="Collectionnez des NFTs uniques sur OpenSea et Magic Eden, et recevez des $LEG via airdrop en 2026.">
+    <meta property="og:title" content="Legatio Finance Pitch Deck">
+    <meta property="og:description" content="Legatio Finance : Collectionnez des NFTs sur OpenSea et Magic Eden, et recevez des $LEG via airdrop en 2026 sur Arbitrum.">
     <meta property="og:image" content="https://delmarcrypto.github.io/legatio.finance/images/og-image.jpg">
-    <meta property="og:url" content="https://delmarcrypto.github.io/legatio.finance/">
-    <meta property="og:type" content="website">
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@rdb_legend">
-    <meta name="twitter:title" content="Legatio Finance - Immobilier Tokenisé via NFTs">
-    <meta name="twitter:description" content="Collectionnez des NFTs uniques sur OpenSea et Magic Eden, et recevez des $LEG via airdrop en 2026.">
-    <meta name="twitter:image" content="https://delmarcrypto.github.io/legatio.finance/images/og-image.jpg">
-    <title>Legatio Finance - Immobilier Tokenisé via NFTs</title>
+    <meta property="og:url" content="https://delmarcrypto.github.io/legatio.finance/pitchdeck.html">
+    <meta property="og:type" content="article">
+    <title>Legatio Finance - Pitch Deck</title>
     <link rel="icon" type="image/png" href="https://delmarcrypto.github.io/legatio.finance/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="main.css">
-    <!-- Données structurées (Schema Markup) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Legatio Finance",
-      "url": "https://delmarcrypto.github.io/legatio.finance/",
-      "logo": "https://delmarcrypto.github.io/legatio.finance/images/og-image.jpg",
-      "description": "Legatio Finance propose des solutions d'investissement dans l'immobilier tokenisé via la blockchain, avec des NFTs uniques sur OpenSea et Magic Eden, et un airdrop de $LEG en 2026.",
-      "sameAs": [
-        "https://x.com/rdb_legend",
-        "https://discord.com/channels/1347668715357077577/1347668716120182888"
-      ]
-    }
-    </script>
-    <style>
-        :root {
-            --primary: #FF007A; /* Neon pink (Uniswap-inspired) */
-            --background: #000000; /* Black background */
-            --text: #FFFFFF; /* White text */
-            --button-bg: #1A1A1A; /* Dark button background */
-            --button-text: #FF007A; /* Pink button text */
-            --hover-dark: #FF4DA6; /* Lighter pink for hover */
-            --accent-pink: #FF66B2; /* Secondary pink for accents */
-            --glow: 0 0 10px #FF007A, 0 0 20px #FF007A, 0 0 30px #FF66B2; /* Neon glow effect */
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Orbitron', sans-serif;
-            background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat, linear-gradient(135deg, #000000 0%, #1A1A1A 100%);
-            color: var(--text);
-            position: relative;
-            overflow-x: hidden;
-            line-height: 1.6;
-        }
-
-        body::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle, rgba(255, 0, 122, 0.2) 0%, transparent 70%);
-            opacity: 0.3;
-            z-index: -1;
-        }
-
-        /* Navbar */
-        .navbar {
-            background: rgba(0, 0, 0, 0.8);
-            padding: 1rem;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .navbar .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .navbar .logo-text {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: var(--primary);
-            text-shadow: var(--glow);
-            text-decoration: none;
-        }
-
-        .navbar ul {
-            display: flex;
-            list-style: none;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-        }
-
-        .navbar a {
-            color: var(--text);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        .navbar a:hover,
-        .navbar a:focus {
-            color: var(--primary);
-            outline: none;
-        }
-
-        /* Header */
-        .header {
-            padding: 4rem 1rem;
-            text-align: center;
-        }
-
-        .header-content h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--primary);
-            text-shadow: var(--glow);
-            animation: glow 2s infinite;
-        }
-
-        .header-content .catchphrase {
-            font-size: 1.5rem;
-            font-weight: 400;
-            margin: 1rem 0;
-        }
-
-        @keyframes glow {
-            0% { text-shadow: var(--glow); }
-            50% { text-shadow: 0 0 5px #FF007A, 0 0 10px #FF66B2; }
-            100% { text-shadow: var(--glow); }
-        }
-
-        /* Container */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1rem;
-        }
-
-        /* Section */
-        .section {
-            padding: 2rem 0;
-        }
-
-        .section h2 {
-            text-align: center;
-            color: var(--primary);
-            text-shadow: var(--glow);
-            animation: glow 2s infinite;
-            margin-bottom: 1.5rem;
-        }
-
-        /* Buttons */
-        .cta-button {
-            display: inline-block;
-            padding: 0.8rem 1.5rem;
-            background: var(--button-bg);
-            color: var(--button-text);
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: 500;
-            transition: background 0.3s, transform 0.3s;
-            margin: 0.5rem 0;
-        }
-
-        .cta-button:hover,
-        .cta-button:focus {
-            background: var(--hover-dark);
-            transform: scale(1.05);
-            outline: none;
-        }
-
-        .simulator-cta {
-            background: var(--button-bg);
-            border: 2px solid var(--primary);
-            padding: 1rem 2rem;
-            font-size: 1.2rem;
-            color: var(--button-text);
-        }
-
-        .simulator-cta:hover {
-            background: var(--hover-dark);
-            border-color: var(--hover-dark);
-        }
-
-        /* Grid Layouts */
-        .token-benefits-list,
-        .roadmap-timeline,
-        .team-container,
-        .partner-logos-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .token-benefit,
-        .roadmap-item,
-        .team-member {
-            background: #1A1A1A;
-            padding: 1.5rem;
-            border-radius: 12px;
-            transition: transform 0.3s, box-shadow 0.3s;
-            text-align: center;
-        }
-
-        .token-benefit:hover,
-        .roadmap-item:hover,
-        .team-member:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(255, 0, 122, 0.3);
-        }
-
-        .token-benefit i,
-        .how-to-invest i {
-            font-size: 2.5rem;
-            color: var(--accent-pink);
-            margin-bottom: 0.5rem;
-        }
-
-        .roadmap-item {
-            text-align: left;
-            border-left: 4px solid var(--primary);
-            border-radius: 0 12px 12px 0;
-        }
-
-        .roadmap-item h3 i {
-            margin-right: 0.5rem;
-            color: var(--accent-pink);
-        }
-
-        /* Wallet Message */
-        .wallet-message {
-            background: #2A2A2A;
-            padding: 1rem;
-            border-radius: 8px;
-            text-align: center;
-            margin-bottom: 1rem;
-            border: 1px solid var(--primary);
-        }
-
-        .wallet-message p {
-            margin-bottom: 0.5rem;
-        }
-
-        .wallet-message a {
-            color: var(--primary);
-            text-decoration: underline;
-        }
-
-        .wallet-message a:hover {
-            color: var(--hover-dark);
-        }
-
-        /* Guide Link */
-        .guide-link {
-            text-align: center;
-            margin-top: 1rem;
-        }
-
-        .guide-link a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .guide-link a:hover {
-            color: var(--hover-dark);
-        }
-
-        /* Airdrop Form */
-        .airdrop-form {
-            background: #1A1A1A;
-            padding: 1.5rem;
-            border-radius: 12px;
-            max-width: 600px;
-            margin: 1rem auto;
-            text-align: center;
-        }
-
-        .airdrop-form label {
-            display: block;
-            margin: 0.5rem 0 0.2rem;
-            font-weight: bold;
-            color: var(--accent-pink);
-        }
-
-        .airdrop-form input {
-            width: 100%;
-            padding: 0.5rem;
-            margin-bottom: 0.5rem;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 8px;
-            background: #2A2A2A;
-            color: var(--text);
-        }
-
-        /* Countdown */
-        .countdown {
-            text-align: center;
-            margin-bottom: 1.5rem;
-        }
-
-        .countdown h3 {
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-        }
-
-        .countdown-timer {
-            font-size: 1.2rem;
-            color: var(--text);
-        }
-
-        .countdown-timer span {
-            color: var(--accent-pink);
-            font-weight: 700;
-            margin: 0 0.2rem;
-        }
-
-        /* FAQ Accordion */
-        .faq-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .faq-item {
-            margin-bottom: 0.5rem;
-        }
-
-        .faq-question {
-            background: #1A1A1A;
-            color: var(--text);
-            padding: 1rem;
-            width: 100%;
-            text-align: left;
-            border: none;
-            border-radius: 8px;
-            font-size: 1.1rem;
-            font-weight: 500;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: background 0.3s;
-        }
-
-        .faq-question:hover,
-        .faq-question:focus {
-            background: #2A2A2A;
-            outline: none;
-        }
-
-        .faq-icon i {
-            transition: transform 0.3s;
-        }
-
-        .faq-answer {
-            background: #2A2A2A;
-            padding: 1rem;
-            border-radius: 0 0 8px 8px;
-            margin-top: 0.2rem;
-        }
-
-        /* Investors */
-        .investor-contact {
-            text-align: center;
-            margin-top: 1rem;
-        }
-
-        .investor-contact a {
-            color: var(--primary);
-            text-decoration: none;
-        }
-
-        .investor-contact a:hover {
-            color: var(--hover-dark);
-        }
-
-        /* Partner Logos */
-        .partner-logos-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1.5rem;
-        }
-
-        .partner-logo {
-            transition: transform 0.3s;
-        }
-
-        .partner-logo:hover {
-            transform: scale(1.1);
-        }
-
-        /* Footer */
-        .footer {
-            background: rgba(0, 0, 0, 0.8);
-            padding: 1.5rem;
-            text-align: center;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .footer a {
-            color: var(--primary);
-            text-decoration: none;
-        }
-
-        .footer a:hover {
-            color: var(--hover-dark);
-        }
-
-        .social-links a {
-            color: var(--text);
-            margin: 0 0.5rem;
-            font-size: 1.5rem;
-            transition: color 0.3s;
-        }
-
-        .social-links a:hover,
-        .social-links a:focus {
-            color: var(--primary);
-        }
-
-        .back-to-top {
-            display: block;
-            margin-top: 1rem;
-            color: var(--primary);
-            font-size: 1.5rem;
-            text-decoration: none;
-        }
-
-        .back-to-top:hover {
-            color: var(--hover-dark);
-        }
-
-        /* Start Section */
-        .start-section p {
-            text-align: center;
-            margin: 0 auto;
-            max-width: 800px;
-        }
-
-        /* Hidden Class */
-        .hidden {
-            display: none;
-        }
-
-        /* Media Queries */
-        @media (max-width: 768px) {
-            .navbar ul {
-                flex-direction: column;
-                align-items: center;
-                gap: 1rem;
-            }
-
-            .navbar .logo-text {
-                font-size: 1.5rem;
-            }
-
-            .header-content h1 {
-                font-size: 2rem;
-            }
-
-            .header-content .catchphrase {
-                font-size: 1.2rem;
-            }
-
-            .token-benefits-list,
-            .roadmap-timeline,
-            .team-container,
-            .partner-logos-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .start-section p {
-                max-width: 100%;
-                padding: 0 1rem;
-            }
-
-            .countdown-timer {
-                font-size: 1rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="navbar">
@@ -513,13 +28,11 @@
                 <span class="logo-text">Legatio Finance</span>
             </a>
             <ul>
-                <li><a href="#start" aria-current="page">Accueil</a></li>
-                <li><a href="#how-to-invest">Solutions</a></li>
-                <li><a href="#nfts">NFTs</a></li>
-                <li><a href="#airdrop">Airdrop</a></li>
-                <li><a href="#investors">Investisseurs</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#team">Équipe</a></li>
+                <li><a href="#probleme">Problème</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#business">Business Model</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#investir">Investir</a></li>
             </ul>
         </nav>
     </header>
@@ -527,319 +40,145 @@
     <main>
         <section class="header" id="start">
             <div class="header-content">
-                <h1>Legatio Finance</h1>
-                <p class="catchphrase">Collectionnez des NFTs uniques sur OpenSea et Magic Eden, et recevez des $LEG via airdrop en 2026.</p>
-                <a href="#nfts" class="cta-button simulator-cta" aria-label="Découvrir les NFTs">Découvrir les NFTs</a>
+                <h1>Legatio Pitch Deck</h1>
+                <p>Un écosystème blockchain avec NFTs sur OpenSea/Magic Eden et $LEG via airdrop en 2026</p>
+                <a href="#ecosystem" class="cta-button" aria-label="Découvrir le Pitch Deck">Découvrir Maintenant</a>
             </div>
         </section>
 
         <div class="container">
-            <section class="section start-section">
-                <h2>Bienvenue dans notre écosystème</h2>
-                <p>Avant d’investir dans nos NFTs et de participer à l'airdrop de $LEG, formez-vous pour mieux comprendre la blockchain et maximiser vos opportunités.</p>
-                <a href="https://delmarcrypto.github.io/Formation-Legatio/" class="cta-button simulator-cta" target="_blank" rel="noopener noreferrer" aria-label="Découvrez notre formation">Voir Notre Formation</a>
+            <section class="section" id="ecosystem">
+                <h2>1. L'Ère des Écosystèmes Blockchain Participatifs</h2>
+                <p>Finance décentralisée en évolution → Les utilisateurs recherchent engagement et utilité.</p>
+                <p><strong>Legatio</strong> → Une plateforme pour collectionner des NFTs uniques sur OpenSea et Magic Eden, et recevoir des $LEG via airdrop en 2026.</p>
             </section>
 
-            <section class="section token-benefits">
-                <h2>Découvrez l'utilité du token $LEG</h2>
-                <div class="token-benefits-list">
-                    <article class="token-benefit">
-                        <i class="fas fa-coins"></i>
-                        <h3>Staking</h3>
-                        <p>Stakez vos $LEGS pour des bonus variables (disponible après l'airdrop en 2026).</p>
-                    </article>
-                    <article class="token-benefit">
-                        <i class="fas fa-vote-yea"></i>
-                        <h3>Gouvernance</h3>
-                        <p>Influencez l’avenir de l’écosystème Legatio (après l'airdrop).</p>
-                    </article>
-                    <article class="token-benefit">
-                        <i class="fas fa-hand-holding-usd"></i>
-                        <h3>Bonus</h3>
-                        <p>Tenez un LegatioNFT et recevez des $LEGS supplémentaires via l'airdrop.</p>
-                    </article>
-                </div>
+            <section class="section" id="probleme">
+                <h2>2. Le Problème : Une Adoption Limitée de la DeFi</h2>
+                <p>"Legatio - Construisons un écosystème accessible."</p>
+                <ul>
+                    <li><strong>Complexité</strong> → La DeFi reste difficile d’accès pour beaucoup.</li>
+                    <li><strong>Manque d’Utilité</strong> → Les tokens et NFTs manquent souvent d’usage concret.</li>
+                    <li><strong>Engagement Faible</strong> → Peu d’incitations à participer activement.</li>
+                </ul>
             </section>
 
-            <section class="section how-to-invest" id="how-to-invest">
-                <h2>Comment Participer ?</h2>
-                <div class="token-benefits-list">
-                    <article class="token-benefit">
-                        <i class="fas fa-wallet"></i>
-                        <h3>1. Connectez</h3>
-                        <p>Utilisez MetaMask sur Arbitrum, sécurisé par des audits Hacken.</p>
-                    </article>
-                    <article class="token-benefit">
-                        <i class="fas fa-building"></i>
-                        <h3>2. Collectionnez</h3>
-                        <p>Obtenez des NFTs Legatio sur OpenSea ou Magic Eden.</p>
-                    </article>
-                    <article class="token-benefit">
-                        <i class="fas fa-coins"></i>
-                        <h3>3. Airdrop</h3>
-                        <p>Recevez vos $LEGS via airdrop en 2026.</p>
-                    </article>
-                </div>
+            <section class="section" id="solution">
+                <h2>3. La Solution : Legatio - Un Écosystème Utilitaire</h2>
+                <ul>
+                    <li><strong>NFTs Uniques</strong> → Collection "Legatio Genesis" sur OpenSea et Magic Eden dès 0.05 ETH (environ 100 $).</li>
+                    <li><strong>$LEG Utility Token</strong> → Staking, gouvernance, et bonus via airdrop en Q1 2026.</li>
+                    <li><strong>Accessibilité & Sécurité</strong> → Sur Arbitrum (Layer 2), audits Hacken, expérience simplifiée.</li>
+                </ul>
             </section>
 
-            <section class="section nfts" id="nfts">
-                <h2>Explorez les NFTs "Legatio Genesis"</h2>
-                <p>Collectionnez dès maintenant des NFTs uniques sur OpenSea et Magic Eden, et obtenez des avantages exclusifs dans l’écosystème Legatio. Aucun dépôt dans un pool n'est requis.</p>
-                <div id="wallet-message" class="wallet-message hidden">
-                    <p>Veuillez connecter MetaMask sur le réseau Arbitrum pour acheter des NFTs.</p>
-                    <button class="cta-button" onclick="connectMetaMask()">Connecter MetaMask</button>
-                </div>
-                <div class="token-benefits-list">
-                    <article class="token-benefit">
-                        <img src="https://delmarcrypto.github.io/legatio-exchange/Citizen.jpeg" alt="Citizen NFT" style="width: 100%; height: auto; border-radius: 5px;">
-                        <h3>Citizen (0.05 ETH)</h3>
-                        <p>Chevalier Initié</p>
-                        <a href="https://opensea.io/collection/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur OpenSea</a>
-                        <a href="https://magiceden.io/marketplace/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur Magic Eden</a>
-                    </article>
-                    <article class="token-benefit">
-                        <img src="https://delmarcrypto.github.io/legatio-exchange/Elite.jpeg" alt="Elite NFT" style="width: 100%; height: auto; border-radius: 5px;">
-                        <h3>Elite (0.5 ETH)</h3>
-                        <p>Chevalier Sentinelle</p>
-                        <a href="https://opensea.io/collection/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur OpenSea</a>
-                        <a href="https://magiceden.io/marketplace/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur Magic Eden</a>
-                    </article>
-                    <article class="token-benefit">
-                        <img src="https://delmarcrypto.github.io/legatio-exchange/Prime.jpeg" alt="Prime NFT" style="width: 100%; height: auto; border-radius: 5px;">
-                        <h3>Prime (5 ETH)</h3>
-                        <p>Chevalier Forgeur</p>
-                        <a href="https://opensea.io/collection/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur OpenSea</a>
-                        <a href="https://magiceden.io/marketplace/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur Magic Eden</a>
-                    </article>
-                    <article class="token-benefit">
-                        <img src="https://delmarcrypto.github.io/legatio-exchange/Legend.jpeg" alt="Legend NFT" style="width: 100%; height: auto; border-radius: 5px;">
-                        <h3>Legend (50 ETH)</h3>
-                        <p>Chevalier Paladin</p>
-                        <a href="https://opensea.io/collection/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur OpenSea</a>
-                        <a href="https://magiceden.io/marketplace/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur Magic Eden</a>
-                    </article>
-                    <article class="token-benefit">
-                        <img src="https://delmarcrypto.github.io/legatio-exchange/Genesis%20Sovereign.jpeg" alt="Genesis Sovereign NFT" style="width: 100%; height: auto; border-radius: 5px;">
-                        <h3>Genesis Sovereign (500 ETH)</h3>
-                        <p>Chevalier Monarque</p>
-                        <a href="https://opensea.io/collection/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur OpenSea</a>
-                        <a href="https://magiceden.io/marketplace/legatio-genesis" class="cta-button" target="_blank" rel="noopener noreferrer">Acheter sur Magic Eden</a>
-                    </article>
-                </div>
-                <p class="guide-link">
-                    <a href="https://delmarcrypto.github.io/Guide-Achat-NFT/" target="_blank" rel="noopener noreferrer" aria-label="Guide pour acheter des NFTs">Guide : Comment acheter un NFT sur OpenSea ou Magic Eden</a>
-                </p>
+            <section class="section" id="marche">
+                <h2>4. Pourquoi Maintenant? Une Opportunité DeFi</h2>
+                <p>Le marché des NFTs atteint 40 milliards $ en 2024.</p>
+                <p>Adoption croissante : OpenSea, Magic Eden, Arbitrum...</p>
+                <p>Régulations favorables : MiCA en UE soutient les utility tokens.</p>
+                <p>Demande pour des écosystèmes interactifs et accessibles.</p>
             </section>
 
-            <section class="section airdrop" id="airdrop">
-                <h2>Recevez vos $LEGS via Airdrop</h2>
-                <p>Le token $LEG sera distribué sous forme d'airdrop en Q1 2026. Inscrivez-vous pour être éligible et assurez-vous de détenir un NFT Legatio Genesis avant le snapshot en Q3 2025 !</p>
-                <div class="countdown">
-                    <h3>Temps restant avant le snapshot (Q3 2025) :</h3>
-                    <div id="countdown-timer" class="countdown-timer">
-                        <span id="days">00</span> jours
-                        <span id="hours">00</span> heures
-                        <span id="minutes">00</span> minutes
-                        <span id="seconds">00</span> secondes
-                    </div>
-                </div>
-                <form id="airdrop-form" class="airdrop-form" action="https://formspree.io/f/mpwpavjj" method="POST">
-                    <label for="email">Votre email :</label>
-                    <input type="email" id="email" name="email" placeholder="Entrez votre email" required aria-label="Email pour inscription à l'airdrop">
-                    <label for="wallet">Adresse de portefeuille (Arbitrum) :</label>
-                    <input type="text" id="wallet" name="wallet" placeholder="Entrez votre adresse Arbitrum" required aria-label="Adresse de portefeuille Arbitrum">
-                    <button type="submit" class="cta-button">S’inscrire à l’Airdrop</button>
-                </form>
-                <p id="airdrop-message" class="hidden"></p>
-                <p class="guide-link">
-                    <a href="https://delmarcrypto.github.io/Guide-Airdrop/" target="_blank" rel="noopener noreferrer" aria-label="Guide pour préparer l'airdrop">Guide : Comment préparer l'airdrop de $LEG</a>
-                </p>
+            <section class="section" id="proposition">
+                <h2>5. La Proposition Unique de Legatio</h2>
+                <ul>
+                    <li>NFTs + $LEG + Accessibilité → Participation dès 0.05 ETH via OpenSea/Magic Eden.</li>
+                    <li>Sécurité & audits → Smart contracts vérifiés par Hacken et programme de bug bounty via Immunefi.</li>
+                    <li>Scalabilité Arbitrum → Transactions rapides et peu coûteuses.</li>
+                </ul>
             </section>
 
-            <section class="section roadmap">
-                <h2>Roadmap 2025-2026</h2>
-                <div class="roadmap-timeline">
-                    <article class="roadmap-item">
-                        <h3><i class="fas fa-rocket"></i> Q2 2025</h3>
-                        <p>Lancement des NFTs "Legatio Genesis" sur le site officiel.</p>
-                        <p>Listing de la collection sur OpenSea et Magic Eden.</p>
-                        <p>Campagne de marketing organique (concours, giveaways, collaborations).</p>
-                    </article>
-                    <article class="roadmap-item">
-                        <h3><i class="fas fa-camera"></i> Q3 2025</h3>
-                        <p>Finalisation de la collection "Legatio Genesis" (10 000 NFTs).</p>
-                        <p>Snapshot des détenteurs de NFTs pour l'airdrop de $LEG.</p>
-                        <p>Développement et audit du smart contract de $LEG par Hacken.</p>
-                    </article>
-                    <article class="roadmap-item">
-                        <h3><i class="fas fa-bullhorn"></i> Q4 2025</h3>
-                        <p>Teasing de l'airdrop de $LEG via la communauté.</p>
-                        <p>Candidature pour des programmes de listing gratuits (MEXC Kickstarter, Gate.io Startup).</p>
-                    </article>
-                    <article class="roadmap-item">
-                        <h3><i class="fas fa-coins"></i> Q1 2026</h3>
-                        <p>Distribution de $LEG via airdrop aux détenteurs de NFTs.</p>
-                        <p>Listing de $LEG sur un DEX (Uniswap/SushiSwap).</p>
-                        <p>Listing de $LEG sur un CEX via un programme gratuit (MEXC, Gate.io, ou LBank).</p>
-                        <p>Lancement du staking de $LEG.</p>
-                    </article>
-                </div>
+            <section class="section" id="business">
+                <h2>6. Business Model & Monétisation</h2>
+                <ul>
+                    <li>2% de frais sur les ventes secondaires de NFTs "Legatio Genesis" via OpenSea/Magic Eden.</li>
+                    <li>Staking $LEG → Récompenses pour sécurisation et participation (après airdrop en 2026).</li>
+                    <li>Partenariats stratégiques → Listings gratuits sur MEXC, Gate.io, et collaborations avec OpenSea/Magic Eden.</li>
+                </ul>
             </section>
 
-            <section class="section team" id="team">
-                <h2>Notre Équipe</h2>
-                <div class="team-container">
-                    <article class="team-member">
-                        <h3>Rodrigues Delmar</h3>
-                        <p>Co-fondateur & CEO</p>
-                        <p>Expert en trading crypto et blockchain.</p>
-                    </article>
-                    <article class="team-member">
-                        <h3>Alexandre Perez</h3>
-                        <p>CTO</p>
-                        <p>Ingénieur blockchain spécialisé en smart contracts.</p>
-                    </article>
-                    <article class="team-member">
-                        <h3>Marie Balsan</h3>
-                        <p>COO</p>
-                        <p>Experte en régulation et conformité crypto.</p>
-                    </article>
-                </div>
+            <section class="section" id="securite">
+                <h2>7. Sécurité, Scalabilité & Régulation</h2>
+                <ul>
+                    <li>Protocole sécurisé → Audit Hacken et programme de bug bounty via Immunefi.</li>
+                    <li>Régulation adaptée → Conforme à MiCA (UE), KYC léger pour l'airdrop.</li>
+                    <li>Arbitrum Layer 2 → Faibles coûts, haute performance.</li>
+                </ul>
             </section>
 
-            <section class="section faq" id="faq">
-                <h2>Questions Fréquentes</h2>
-                <div class="faq-container">
-                    <div class="faq-item">
-                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
-                            Comment obtenir un NFT Legatio ?
-                            <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
-                        </button>
-                        <div id="faq-answer-1" class="faq-answer hidden">
-                            <p>Achetez un "Legatio Genesis" sur OpenSea ou Magic Eden dès 0.05 ETH. Aucun dépôt n'est requis.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
-                            Quand recevrai-je mes $LEGS ?
-                            <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
-                        </button>
-                        <div id="faq-answer-2" class="faq-answer hidden">
-                            <p>Les $LEGS seront distribués via airdrop en Q1 2026, après le snapshot en Q3 2025.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
-                            Quels sont les risques ?
-                            <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
-                        </button>
-                        <div id="faq-answer-3" class="faq-answer hidden">
-                            <p>Les bonus varient selon l’activité ; audits Hacken et un programme de bug bounty via Immunefi assurent la sécurité.</p>
-                        </div>
-                    </div>
-                </div>
+            <section class="section" id="concurrence">
+                <h2>8. Comparaison Concurrentielle</h2>
+                <p>Legatio vs Axie Infinity, Rarible, Aave</p>
+                <ul>
+                    <li><strong>Legatio</strong> → NFTs accessibles sur OpenSea/Magic Eden + $LEG via airdrop.</li>
+                    <li><strong>Axie Infinity</strong> → Focus gaming, moins scalable.</li>
+                    <li><strong>Rarible</strong> → Marketplace NFT, pas d'airdrop ni de token utilitaire intégré.</li>
+                    <li><strong>Aave</strong> → Prêts complexes, pas de NFTs ni d'airdrop.</li>
+                </ul>
             </section>
 
-            <section class="section investors" id="investors">
-                <h2>Pour les Investisseurs</h2>
-                <p>Participez à notre vision collective sur Arbitrum et contribuez à la révolution de l'immobilier tokenisé.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                    <a href="https://delmarcrypto.github.io/Pitch-Deck/" class="cta-button" target="_blank" rel="noopener noreferrer">Pitch Deck</a>
-                    <a href="https://delmarcrypto.github.io/White-Paper/" class="cta-button" target="_blank" rel="noopener noreferrer">White Paper</a>
-                    <a href="https://delmarcrypto.github.io/Business-Plan/" class="cta-button" target="_blank" rel="noopener noreferrer">Business Plan</a>
-                </div>
-                <p class="investor-contact">Intéressé à investir ? <a href="mailto:invest@legatio.finance">Contactez-nous</a> pour plus d'informations.</p>
+            <section class="section" id="projections">
+                <h2>9. Projections Financières & Scalabilité</h2>
+                <p>En 2028 → 50 M$ de TVL | 10 M$ de revenus annuels</p>
+                <ul>
+                    <li>50% Frais sur ventes secondaires NFTs via OpenSea/Magic Eden.</li>
+                    <li>30% Récompenses de staking $LEG.</li>
+                    <li>20% Partenariats stratégiques (MEXC, Gate.io, OpenSea, Magic Eden).</li>
+                </ul>
+                <p>Objectif : Capturer 0.5 % du marché NFT/DeFi sur Arbitrum grâce à une adoption massive et une stratégie de minimisation des coûts.</p>
             </section>
 
-            <section class="section partner-logos">
-                <h2>Nos partenaires</h2>
-                <div class="partner-logos-grid">
-                    <!-- LBank -->
-                    <a href="https://www.lbank.com/" target="_blank" rel="noopener noreferrer" aria-label="Logo LBank">
-                        <svg width="120" height="50" xmlns="http://www.w3.org/2000/svg" class="partner-logo">
-                            <title>Logo de LBank, partenaire de Legatio Finance</title>
-                            <defs>
-                                <linearGradient id="lbankGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color: var(--primary);" />
-                                    <stop offset="100%" style="stop-color: var(--accent-pink);" />
-                                </linearGradient>
-                            </defs>
-                            <rect x="5" y="5" width="110" height="40" rx="10" fill="none" stroke="url(#lbankGradient)" stroke-width="2"/>
-                            <text x="15" y="35" font-family="Orbitron, sans-serif" font-size="20" fill="url(#lbankGradient)">LBank</text>
-                            <circle cx="100" cy="25" r="5" fill="var(--primary)"/>
-                        </svg>
-                    </a>
-                    <!-- Link -->
-                    <a href="https://chain.link/" target="_blank" rel="noopener noreferrer" aria-label="Logo Link">
-                        <svg width="120" height="50" xmlns="http://www.w3.org/2000/svg" class="partner-logo">
-                            <title>Logo de Link, partenaire de Legatio Finance</title>
-                            <defs>
-                                <linearGradient id="chainlinkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color: var(--primary);" />
-                                    <stop offset="100%" style="stop-color: var(--accent-pink);" />
-                                </linearGradient>
-                            </defs>
-                            <polygon points="15,15 35,5 55,15 55,35 35,45 15,35" fill="none" stroke="url(#chainlinkGradient)" stroke-width="3"/>
-                            <text x="65" y="35" font-family="Orbitron, sans-serif" font-size="18" fill="url(#chainlinkGradient)">Link</text>
-                        </svg>
-                    </a>
-                    <!-- Axie Infinity -->
-                    <a href="https://axieinfinity.com/" target="_blank" rel="noopener noreferrer" aria-label="Logo Axie Infinity">
-                        <svg width="120" height="50" xmlns="http://www.w3.org/2000/svg" class="partner-logo">
-                            <title>Logo de Axie Infinity, partenaire de Legatio Finance</title>
-                            <defs>
-                                <linearGradient id="axieGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color: var(--primary);" />
-                                    <stop offset="100%" style="stop-color: var(--accent-pink);" />
-                                </linearGradient>
-                            </defs>
-                            <rect x="10" y="10" width="40" height="30" fill="none" stroke="url(#axieGradient)" stroke-width="2"/>
-                            <text x="60" y="35" font-family="Orbitron, sans-serif" font-size="18" fill="url(#axieGradient)">Axie</text>
-                        </svg>
-                    </a>
-                    <!-- Aave -->
-                    <a href="https://aave.com/" target="_blank" rel="noopener noreferrer" aria-label="Logo Aave">
-                        <svg width="120" height="50" xmlns="http://www.w3.org/2000/svg" class="partner-logo">
-                            <title>Logo de Aave, partenaire de Legatio Finance</title>
-                            <defs>
-                                <linearGradient id="aaveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color: var(--primary);" />
-                                    <stop offset="100%" style="stop-color: var(--accent-pink);" />
-                                </linearGradient>
-                            </defs>
-                            <circle cx="30" cy="25" r="15" fill="none" stroke="url(#aaveGradient)" stroke-width="3"/>
-                            <text x="55" y="35" font-family="Orbitron, sans-serif" font-size="18" fill="url(#aaveGradient)">Aave</text>
-                        </svg>
-                    </a>
-                    <!-- Rarible -->
-                    <a href="https://rarible.com/" target="_blank" rel="noopener noreferrer" aria-label="Logo Rarible">
-                        <svg width="120" height="50" xmlns="http://www.w3.org/2000/svg" class="partner-logo">
-                            <title>Logo de Rarible, partenaire de Legatio Finance</title>
-                            <defs>
-                                <linearGradient id="raribleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color: var(--primary);" />
-                                    <stop offset="100%" style="stop-color: var(--accent-pink);" />
-                                </linearGradient>
-                            </defs>
-                            <path d="M20 15 L30 35 L40 15 Z" fill="none" stroke="url(#raribleGradient)" stroke-width="3"/>
-                            <text x="50" y="35" font-family="Orbitron, sans-serif" font-size="16" fill="url(#raribleGradient)">Rarible</text>
-                        </svg>
-                    </a>
-                    <!-- Stepn -->
-                    <a href="https://www.stepn.com/" target="_blank" rel="noopener noreferrer" aria-label="Logo Stepn">
-                        <svg width="120" height="50" xmlns="http://www.w3.org/2000/svg" class="partner-logo">
-                            <title>Logo de Stepn, partenaire de Legatio Finance</title>
-                            <defs>
-                                <linearGradient id="stepnGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color: var(--primary);" />
-                                    <stop offset="100%" style="stop-color: var(--accent-pink);" />
-                                </linearGradient>
-                            </defs>
-                            <rect x="15" y="15" width="30" height="20" fill="none" stroke="url(#stepnGradient)" stroke-width="2"/>
-                            <text x="55" y="35" font-family="Orbitron, sans-serif" font-size="16" fill="url(#stepnGradient)">Stepn</text>
-                        </svg>
-                    </a>
-                </div>
+            <section class="section" id="roadmap">
+                <h2>10. Roadmap & Lancement</h2>
+                <ul>
+                    <li><strong>Q2 2025</strong> → Lancement des NFTs "Legatio Genesis" sur OpenSea et Magic Eden, campagne marketing organique (concours, giveaways).</li>
+                    <li><strong>Q3 2025</strong> → Finalisation de la collection (10 000 NFTs), snapshot pour l'airdrop de $LEG, audit du smart contract $LEG par Hacken.</li>
+                    <li><strong>Q4 2025</strong> → Teasing de l'airdrop, candidature pour listings gratuits (MEXC Kickstarter, Gate.io Startup).</li>
+                    <li><strong>Q1 2026</strong> → Airdrop de $LEG, listing sur DEX (Uniswap/SushiSwap) et CEX (MEXC, Gate.io), lancement du staking $LEG.</li>
+                </ul>
+                <p>Vision : Devenir un leader des écosystèmes NFT et utility tokens sur Layer 2.</p>
+            </section>
+
+            <section class="section" id="levee">
+                <h2>11. Levée de Fonds : 3M$ pour Accélérer la Croissance</h2>
+                <ul>
+                    <li>40% Développement & audits (1,2 M$) → Smart contracts, 10 000 NFTs uniques, audit Hacken (~10 000 $), programme de bug bounty via Immunefi (~5 000 $).</li>
+                    <li>40% Marketing & adoption (1,2 M$) → Campagnes organiques, listings gratuits sur MEXC/Gate.io.</li>
+                    <li>20% Opérations & conformité (0,6 M$) → Équipe, conformité MiCA.</li>
+                </ul>
+                <p>Objectif : Construire un écosystème leader avec 50 M$ de TVL d’ici 2028.</p>
+            </section>
+
+            <section class="section" id="investir">
+                <h2>12. Pourquoi Investir dans Legatio ?</h2>
+                <ul>
+                    <li>Marché NFT et utility tokens : 40 B$ aujourd’hui, croissance exponentielle prévue.</li>
+                    <li>Équipe de 5 experts, extensible à 8 avec la levée, forte en blockchain et DeFi.</li>
+                    <li>Stratégie de minimisation des coûts → Listings gratuits, marketing organique.</li>
+                    <li>Accessibilité dès 0.05 ETH et airdrop pour une adoption massive.</li>
+                </ul>
+                <p>Intéressé ? <a href="mailto:invest@legatio.finance">Contactez-nous</a> pour plus d'informations.</p>
+            </section>
+
+            <section class="section" id="fondateur">
+                <h2>13. Le Fondateur du Projet Legatio</h2>
+                <p><strong>Rodrigues Delmar</strong></p>
+                <ul>
+                    <li>Spécialiste des stratégies blockchain et utility tokens.</li>
+                    <li>Formé chez Admiral Markets et eToro.</li>
+                </ul>
+                <p>Partenariats : Chainlink, LBank, Rarible, Stepn, OpenSea, Magic Eden.</p>
+            </section>
+
+            <section class="section" id="conclusion">
+                <h2>14. Conclusion : Pourquoi Legatio Réussira</h2>
+                <ul>
+                    <li><strong>Objectif</strong> → Leader des écosystèmes NFT et utility token.</li>
+                    <li><strong>Sécurité</strong> → Audits Hacken, bug bounty via Immunefi, et transparence.</li>
+                    <li><strong>Modèle robuste</strong> → Revenus via NFTs et staking.</li>
+                    <li><strong>Adoption</strong> → Accessible dès 0.05 ETH sur OpenSea/Magic Eden.</li>
+                </ul>
             </section>
         </div>
     </main>
@@ -850,102 +189,10 @@
                 <a href="https://x.com/rdb_legend" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                 <a href="https://discord.com/channels/1347668715357077577/1347668716120182888" target="_blank" rel="noopener noreferrer" aria-label="Discord"><i class="fab fa-discord"></i></a>
             </div>
-            <div class="footer-links">
-                <a href="#faq">FAQ</a> | 
-                <a href="https://delmarcrypto.github.io/privacy-policy/" target="_blank" rel="noopener noreferrer">Confidentialité</a> | 
-                <a href="https://delmarcrypto.github.io/terms-of-service/" target="_blank" rel="noopener noreferrer">Conditions</a>
-            </div>
             <p>Contact : <a href="mailto:legatio.finance@gmail.com">legatio.finance@gmail.com</a></p>
             <p>© 2025 Legatio Finance. Tous droits réservés.</p>
             <a href="#start" class="back-to-top" aria-label="Retour en haut de la page"><i class="fas fa-arrow-up"></i> Retour en haut</a>
         </div>
     </footer>
-
-    <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js" defer></script>
-    <script>
-        // Vérification de la connexion MetaMask
-        let provider, userAddress;
-
-        async function connectMetaMask() {
-            const walletMessage = document.getElementById('wallet-message');
-            if (!window.ethereum) {
-                walletMessage.classList.remove('hidden');
-                walletMessage.innerHTML = 'MetaMask est requis pour interagir avec cette page. <a href="https://metamask.io/download.html" target="_blank" rel="noopener noreferrer">Téléchargez MetaMask</a>.';
-                return;
-            }
-
-            try {
-                const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
-                userAddress = accounts[0];
-                provider = new ethers.providers.Web3Provider(window.ethereum);
-
-                if (await window.ethereum.request({ method: 'eth_chainId' }) !== '0xa4b1') {
-                    await window.ethereum.request({ method: 'wallet_switchEthereumChain', params: [{ chainId: '0xa4b1' }] });
-                    walletMessage.classList.remove('hidden');
-                    walletMessage.innerHTML = 'Connecté à Arbitrum ! Vous pouvez maintenant acheter des NFTs.';
-                } else {
-                    walletMessage.classList.remove('hidden');
-                    walletMessage.innerHTML = 'Connecté à Arbitrum ! Vous pouvez maintenant acheter des NFTs.';
-                }
-            } catch (e) {
-                walletMessage.classList.remove('hidden');
-                walletMessage.innerHTML = e.message || 'Erreur de connexion à MetaMask.';
-            }
-        }
-
-        // Vérification initiale de la connexion MetaMask
-        window.addEventListener('load', () => {
-            if (window.ethereum) {
-                provider = new ethers.providers.Web3Provider(window.ethereum);
-                provider.listAccounts().then(accounts => {
-                    if (accounts.length > 0) {
-                        userAddress = accounts[0];
-                        document.getElementById('wallet-message').classList.remove('hidden');
-                        document.getElementById('wallet-message').innerHTML = 'Connecté à Arbitrum ! Vous pouvez maintenant acheter des NFTs.';
-                    } else {
-                        document.getElementById('wallet-message').classList.remove('hidden');
-                    }
-                });
-            } else {
-                document.getElementById('wallet-message').classList.remove('hidden');
-            }
-        });
-
-        // Gestion du formulaire d'inscription à l'airdrop
-        document.getElementById('airdrop-form').addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const form = e.target;
-            const message = document.getElementById('airdrop-message');
-            message.classList.remove('hidden');
-
-            try {
-                const response = await fetch(form.action, {
-                    method: form.method,
-                    body: new FormData(form),
-                    headers: { 'Accept': 'application/json' }
-                });
-
-                if (response.ok) {
-                    message.textContent = 'Inscription réussie ! Vous êtes éligible pour l’airdrop de $LEG en Q1 2026.';
-                    form.reset();
-                } else {
-                    message.textContent = 'Erreur lors de l’inscription. Veuillez réessayer.';
-                }
-            } catch (e) {
-                message.textContent = 'Erreur lors de l’inscription. Veuillez réessayer.';
-            }
-        });
-
-        // Compte à rebours pour le snapshot (Q3 2025, disons 30 septembre 2025)
-        const snapshotDate = new Date('2025-09-30T23:59:59');
-        function updateCountdown() {
-            const now = new Date();
-            const timeDifference = snapshotDate - now;
-
-            if (timeDifference <= 0) {
-                document.getElementById('countdown-timer').innerHTML = 'Le snapshot est terminé !';
-                return;
-            }
-
-            const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-            const hours
+</body>
+</html>
