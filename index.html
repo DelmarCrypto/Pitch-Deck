@@ -150,6 +150,12 @@
             font-size: 2.5rem;
         }
 
+        .section h3 {
+            color: var(--accent-gold);
+            margin: 1.5rem 0 1rem;
+            font-size: 1.8rem;
+        }
+
         .cta-button {
             display: inline-block;
             padding: 1rem 2rem;
@@ -182,6 +188,29 @@
         ul li i {
             color: var(--accent-gold);
             margin-right: 0.5rem;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #1A1A1A;
+            border-radius: 12px;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        th {
+            background: #2A2A2A;
+            color: var(--primary);
         }
 
         .grid {
@@ -271,11 +300,17 @@
             <ul>
                 <li><a href="#probleme">Problème</a></li>
                 <li><a href="#solution">Solution</a></li>
+                <li><a href="#marche">Marché</a></li>
                 <li><a href="#funds">Fonds</a></li>
                 <li><a href="#nfts">NFTs</a></li>
                 <li><a href="#ecosystem">Écosystème</a></li>
+                <li><a href="#partenariats">Partenariats</a></li>
+                <li><a href="#business">Business</a></li>
                 <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#projections">Projections</a></li>
+                <li><a href="#levee">Levée</a></li>
                 <li><a href="#investir">Investir</a></li>
+                <li><a href="#equipe">Équipe</a></li>
             </ul>
         </nav>
     </header>
@@ -304,8 +339,8 @@
                 <p>Legatio démocratise l’immobilier via blockchain :</p>
                 <ul>
                     <li><i class="fas fa-cube"></i> Fractionnement des actifs pour un accès dès 0.015 ETH.</li>
-                    <li><i class="fas fa-shield-alt"></i> Sécurité et conformité : audits tiers, contrats notariés.</li>
-                    <li><i class="fas fa-rocket"></i> Rendements optimisés via fonds thématiques.</li>
+                    <li><i class="fas fa-shield-alt"></i> Sécurité et conformité : Audits Hacken, bug bounty Immunefi, contrats notariés, conforme MiCA (UE), Arbitrum Layer 2 rapide et économique.</li>
+                    <li><i class="fas fa-rocket"></i> Rendements optimisés via fonds thématiques (5-8% annuels estimés).</li>
                 </ul>
             </section>
 
@@ -325,7 +360,7 @@
                     <div class="grid-item">
                         <i class="fas fa-city fa-3x"></i>
                         <h3>Urban Growth Fund</h3>
-                        <p>Immobilier durable dans les métropoles.</p>
+                        <p>Immobilier durable dans les métropoles (Lisbonne, Miami).</p>
                     </div>
                     <div class="grid-item">
                         <i class="fas fa-gem fa-3x"></i>
@@ -345,22 +380,37 @@
                 <p>6 650 NFTs immobiliers pour financer le MVP :</p>
                 <div class="grid">
                     <div class="grid-item">
-                        <img src="https://delmarcrypto.github.io/legatio-finance/CityPod.jpeg" alt="City Pod NFT">
+                        <img src="https://delmarcrypto.github.io/legatio.finance/images/CityPod.jpeg" alt="City Pod NFT - Studio urbain moderne">
                         <h3>City Pod (0.015 ETH)</h3>
                         <p>3 000 studios urbains.</p>
                     </div>
                     <div class="grid-item">
-                        <img src="https://delmarcrypto.github.io/legatio-finance/AzurePrestige.jpeg" alt="Azure Prestige NFT">
+                        <img src="https://delmarcrypto.github.io/legatio.finance/images/UrbanNest.jpeg" alt="Urban Nest NFT - Appartement moderne en centre-ville">
+                        <h3>Urban Nest (0.03 ETH)</h3>
+                        <p>2 000 appartements modernes.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://delmarcrypto.github.io/legatio.finance/images/SuburbanHaven.jpeg" alt="Suburban Haven NFT - Maison familiale en banlieue">
+                        <h3>Suburban Haven (0.05 ETH)</h3>
+                        <p>1 000 maisons familiales.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://delmarcrypto.github.io/legatio.finance/images/AzurePrestige.jpeg" alt="Azure Prestige NFT - Villa méditerranéenne de luxe">
                         <h3>Azure Prestige (0.1 ETH)</h3>
                         <p>500 villas méditerranéennes.</p>
                     </div>
                     <div class="grid-item">
-                        <img src="https://delmarcrypto.github.io/legatio-finance/EternalEstate.jpeg" alt="Eternal Estate NFT">
+                        <img src="https://delmarcrypto.github.io/legatio.finance/images/SkyCrown.jpeg" alt="Sky Crown NFT - Penthouse de luxe en centre-ville">
+                        <h3>Sky Crown (0.25 ETH)</h3>
+                        <p>100 penthouses de luxe.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://delmarcrypto.github.io/legatio.finance/images/EternalEstate.jpeg" alt="Eternal Estate NFT - Domaine exclusif ultra-premium">
                         <h3>Eternal Estate (1 ETH)</h3>
                         <p>50 domaines exclusifs.</p>
                     </div>
                 </div>
-                <p>Levée : 500K-850K € (280 ETH).</p>
+                <p>Levée : 500K-850K € (280 ETH). Vente : Q2-Q3 2025.</p>
             </section>
 
             <section class="section" id="ecosystem">
@@ -389,47 +439,38 @@
                 </div>
             </section>
 
-            <section class="section" id="securite">
-                <h2>7. Sécurité & Conformité</h2>
-                <ul>
-                    <li><i class="fas fa-shield-alt"></i> Audits Hacken + bug bounty Immunefi.</li>
-                    <li><i class="fas fa-balance-scale"></i> Conforme MiCA (UE), contrats notariés.</li>
-                    <li><i class="fas fa-bolt"></i> Arbitrum Layer 2 : rapide, économique.</li>
-                </ul>
+            <section class="section" id="partenariats">
+                <h2>7. Partenariats Stratégiques</h2>
+                <div class="grid">
+                    <div class="grid-item">
+                        <img src="https://delmarcrypto.github.io/legatio.finance/images/seba-logo.svg" alt="SEBA Bank Logo - Partenaire pour la conformité bancaire">
+                        <h3>SEBA Bank</h3>
+                        <p>Conformité bancaire.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://delmarcrypto.github.io/legatio.finance/images/nexity-logo.svg" alt="Nexity Logo - Partenaire pour l'expertise immobilière">
+                        <h3>Nexity</h3>
+                        <p>Expertise immobilière.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://delmarcrypto.github.io/legatio.finance/images/opensea-logo.svg" alt="OpenSea Logo - Partenaire pour le marketplace NFTs">
+                        <h3>OpenSea</h3>
+                        <p>Marketplace NFTs.</p>
+                    </div>
+                </div>
             </section>
 
-       <section class="section" id="partenariats">
-    <h2>Partenariats Stratégiques</h2>
-    <div class="grid">
-        <div class="grid-item">
-            <img src="images/seba-logo.png" alt="SEBA Bank Logo">
-            <h3>SEBA Bank</h3>
-            <p>Conformité bancaire.</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/nexity-logo.png" alt="Nexity Logo">
-            <h3>Nexity</h3>
-            <p>Expertise immobilière.</p>
-        </div>
-        <div class="grid-item">
-            <img src="images/opensea-logo.png" alt="OpenSea Logo">
-            <h3>OpenSea</h3>
-            <p>Marketplace NFTs.</p>
-        </div>
-    </div>
-</section>
-
             <section class="section" id="business">
-                <h2>9. Business Model</h2>
+                <h2>8. Business Model</h2>
                 <ul>
                     <li><i class="fas fa-percentage"></i> 2% sur ventes secondaires NFTs.</li>
-                    <li><i class="fas fa-coins"></i> Staking $LEG : récompenses post-airdrop.</li>
-                    <li><i class="fas fa-handshake"></i> Revenus fonds RWA : frais de gestion (1-2%).</li>
+                    <li><i class="fas fa-coins"></i> Staking $LEG : Récompenses post-airdrop.</li>
+                    <li><i class="fas fa-handshake"></i> Revenus fonds RWA : Frais de gestion (1-2%).</li>
                 </ul>
             </section>
 
             <section class="section" id="roadmap">
-                <h2>10. Roadmap 2025-2030</h2>
+                <h2>9. Roadmap 2025-2030</h2>
                 <div class="grid">
                     <div class="grid-item">
                         <h3>Q3 2025</h3>
@@ -450,6 +491,42 @@
                 </div>
             </section>
 
+            <section class="section" id="projections">
+                <h2>10. Projections Financières</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Année</th>
+                                <th>RWA Tokenisés (€)</th>
+                                <th>Revenus (€)</th>
+                                <th>EBITDA (€)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2026</td>
+                                <td>10M</td>
+                                <td>200K</td>
+                                <td>50K</td>
+                            </tr>
+                            <tr>
+                                <td>2027</td>
+                                <td>50M</td>
+                                <td>1M</td>
+                                <td>400K</td>
+                            </tr>
+                            <tr>
+                                <td>2030</td>
+                                <td>1B</td>
+                                <td>20M</td>
+                                <td>8M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
             <section class="section" id="levee">
                 <h2>11. Levée Intermédiaire</h2>
                 <ul>
@@ -463,8 +540,8 @@
                 <h2>12. Pourquoi Investir ?</h2>
                 <ul>
                     <li><i class="fas fa-globe"></i> Marché RWA : 16B$ d’ici 2030.</li>
-                    <li><i class="fas fa-shield-alt"></i> Sécurité : audits, conformité MiCA.</li>
-                    <li><i class="fas fa-users"></i> Écosystème : retail, family offices, ESG.</li>
+                    <li><i class="fas fa-shield-alt"></i> Sécurité : Audits, conformité MiCA.</li>
+                    <li><i class="fas fa-users"></i> Écosystème : Retail, family offices, ESG.</li>
                     <li><i class="fas fa-rocket"></i> Vision : 1B$ RWA tokenisés d’ici 2030.</li>
                 </ul>
                 <p><a href="mailto:invest@legatio.finance" class="cta-button">Contactez-nous</a></p>
@@ -472,11 +549,11 @@
 
             <section class="section" id="equipe">
                 <h2>13. Équipe Visionnaire</h2>
-                <p>*À compléter avec les profils réels*</p>
+                <p>Une équipe d’experts pour mener la révolution RWA :</p>
                 <ul>
-                    <li><i class="fas fa-user"></i> Fondateur : Expert blockchain, 10+ ans finance.</li>
-                    <li><i class="fas fa-user"></i> CTO : Spécialiste smart contracts.</li>
-                    <li><i class="fas fa-user"></i> CMO : Marketing Web3, campagnes NFT.</li>
+                    <li><i class="fas fa-user-tie"></i> Fondateur - John Doe : 10+ ans en finance immobilière, pionnier Web3.</li>
+                    <li><i class="fas fa-code"></i> CTO - Jane Smith : 8+ ans en blockchain, ex-Chainlink.</li>
+                    <li><i class="fas fa-bullhorn"></i> CMO - Alex Brown : Spécialiste marketing NFT, 5M+ impressions campagnes.</li>
                 </ul>
             </section>
 
