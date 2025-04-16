@@ -293,6 +293,115 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* Styles pour la section NFTs */
+.section#nfts {
+    background: linear-gradient(135deg, #1A1A1A, #0A0A0A);
+    padding: 4rem 0;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: var(--accent-gold);
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+}
+
+.nft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.nft-card {
+    background: #1A1A1A;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.nft-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
+}
+
+.nft-image {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.nft-card h3 {
+    color: var(--accent-gold);
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.nft-price {
+    color: var(--primary);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.nft-description {
+    color: var(--text);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.nft-stats {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(26, 26, 26, 0.9);
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.nft-stats p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: var(--text);
+}
+
+.nft-stats p strong {
+    color: var(--primary);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nft-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .nft-image {
+        max-width: 100%;
+        height: 180px;
+    }
+    .nft-card {
+        padding: 1.5rem;
+    }
+    .nft-card h3 {
+        font-size: 1.4rem;
+    }
+    .nft-price {
+        font-size: 1.2rem;
+    }
+    .nft-description {
+        font-size: 1rem;
+    }
+}
     </style>
 </head>
 <body>
